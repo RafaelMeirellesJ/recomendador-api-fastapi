@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Recomendação - Página Inicial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        h1 {
+            color: #444;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            margin: 5px 0;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo ao Sistema de Recomendação</h1>
+        <p>Escolha uma das opções abaixo para testar:</p>
+        <ul>
+            <li><a href="/best-seller/ratings/">Filmes mais bem avaliados</a></li>
+            <li><a href="/best-seller/views/">Filmes mais vistos</a></li>
+            <li><a href="/similarity/1">Filmes similares a Toy Story (ID: 1)</a></li>
+            <li><a href="/user-based/1">Recomendações para o Usuário 1</a></li>
+        </ul>
+    </div>
+</body>
+</html>
